@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StockDetail</string>
+    <string name="pl_args">P&amp;L: %s</string>
+    <string name="bid_and_ask_args">Bid: %s Ask: %s</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".presentation.feature.detail.DetailActivity">
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="AAPL (Apple Inc) x5" />
+
+    <TextView
+        android:id="@+id/profitAndLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/pl_args" />
+
+    <TextView
+        android:id="@+id/bidAndAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/bid_and_ask_args" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
